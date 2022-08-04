@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>assistcode.fr</title>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<script src="https://kit.fontawesome.com/0777c393d7.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+
+
+	<nav class="sidebar">
+		<div class="text">Menu</div>
+		<ul>
+			<li><a href="#">Dashboard</a></li>
+			<li>
+				<a href="#" class="feat-btn">CODE
+					<span class="fas fa-caret-down first"></span>
+
+				</a>
+				<ul class="feat-show">
+					<li><a href="#">HTML</a></li>
+					<li><a href="#">CSS</a></li>
+				</ul>
+			</li>
+
+			<li><a href="#" class="serv-btn">Outils
+
+				<span class="fas fa-caret-down second"></span>
+
+			</a></li>
+			<li>
+				<ul class="serv-show">
+					<li><a href="https://fontawesome.com/">Icons</a></li>
+					<li><a href="#">Js</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Template</a></li>
+			<li><a href="#">CLOSE</a></li>
+			<li><a href="#">Login</a></li>
+			<li><a href="setting.html">Paramètres</a></li>
+			<li><a href="index.html">Théme Sombre</a></li>
+		</ul>
+	</nav>
+
+	<script>
+		$('.feat-btn').click(function(){
+			$('nav ul .feat-show').toggleClass("show");
+			$('nav ul .first').toggleClass("rotate");
+		});
+	
+		$('.serv-btn').click(function(){
+			$('nav ul .serv-show').toggleClass("show1");
+			$('nav ul .second').toggleClass("rotate");
+		});
+
+	</script>
+
+
+	
+
+	
+
+
+
+</body>
+</html>
